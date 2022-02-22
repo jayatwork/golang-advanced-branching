@@ -18,8 +18,8 @@ type feedbackResult struct {
 	feedbackNeutral  int
 }
 
-var vehicleResult = make(map[string]feedbackResult)
-var inventory = []vehicle{}
+var vehicleResult map[string]feedbackResult
+var inventory []vehicle
 
 type rating float32
 type vehicle interface{}
