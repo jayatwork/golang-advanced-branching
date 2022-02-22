@@ -67,7 +67,7 @@ func TestForRangeFeedback(t *testing.T) {
 }
 
 // Task 7: Check `if text := strings.Split(msg, " ") ; len(text) >= 5`
-func TestIfStmt(t *testing.T) {
+/* func TestIfStmt(t *testing.T) {
 	if !checkIfStmt(forBlock, "text", "strings", "len(text)>=5") {
 		t.Error("If statment is either not defined or missing the initialization and the condition is not correct.")
 	}
@@ -76,7 +76,7 @@ func TestIfStmt(t *testing.T) {
 		t.Error("Import the package `strings`")
 	}
 
-}
+} */
 
 // Task 8: Set variable values
 /* func TestSetVarValues(t *testing.T) {
@@ -90,11 +90,11 @@ func TestIfStmt(t *testing.T) {
 } */
 
 // Task 9: Check for `for _, word := range text`
-func TestForWithinIf(t *testing.T) {
+/* func TestForWithinIf(t *testing.T) {
 	if !checkForWithinIf(ifBlock, "_", "word", "text") {
 		t.Error("Could not find the for statement with no key and `word` as value and `text` as range")
 	}
-}
+} */
 
 // Task 10: Check for `switch s := strings.Trim(strings.ToLower(word), " ,.,!,?,\t,\n,\r"); s`
 /* func TestSwitchCalRating(t *testing.T) {
