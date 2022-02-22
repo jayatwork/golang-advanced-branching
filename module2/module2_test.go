@@ -79,7 +79,7 @@ func TestIfStmt(t *testing.T) {
 }
 
 // Task 8: Set variable values
-func TestSetVarValues(t *testing.T) {
+/* func TestSetVarValues(t *testing.T) {
 	if !checkSetValues(ifBlock, "vehRating=5.0") {
 		t.Error("vehRating not set")
 	}
@@ -87,7 +87,7 @@ func TestSetVarValues(t *testing.T) {
 		t.Error("feedbackTotal not added")
 	}
 
-}
+} */
 
 // Task 9: Check for `for _, word := range text`
 func TestForWithinIf(t *testing.T) {
