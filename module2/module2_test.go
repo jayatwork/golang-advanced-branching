@@ -113,7 +113,7 @@ func TestForRangeFeedback(t *testing.T) {
 } */
 
 // Task 12: Check for `vehicleResult[v.Name] = vehResult`
-func TestVarAppendRating(t *testing.T) {
+/* func TestVarAppendRating(t *testing.T) {
 	testFail := false
 	if mainForStmt == nil {
 		testFail = true
@@ -124,7 +124,7 @@ func TestVarAppendRating(t *testing.T) {
 	if testFail {
 		t.Error("Assign `vehResult` to `vehicleResult[v.Name]` right before we close the first/main for statement")
 	}
-}
+} */
 
 // Task 13: Call generateRating() within main()
 func TestGenerateRatingFuncIsCalled(t *testing.T) {
