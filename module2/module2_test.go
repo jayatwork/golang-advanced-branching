@@ -97,20 +97,20 @@ func TestForWithinIf(t *testing.T) {
 }
 
 // Task 10: Check for `switch s := strings.Trim(strings.ToLower(word), " ,.,!,?,\t,\n,\r"); s`
-func TestSwitchCalRating(t *testing.T) {
+/* func TestSwitchCalRating(t *testing.T) {
 	if !checkSwitchCalRating(forWord, "s", "strings", "s") {
 		t.Error("Could not find the switch statement with variable `s` assigned  and tagged.")
 	}
 
-}
+} */
 
 // Task 11: Check for `switch`
-func TestSwitchAddFeedback(t *testing.T) {
+/* func TestSwitchAddFeedback(t *testing.T) {
 	if !checkSwitchAddFeedback(ifBlock) {
 		t.Error("Could not find the switch statement with no initialization and no tag")
 	}
 
-}
+} */
 
 // Task 12: Check for `vehicleResult[v.Name] = vehResult`
 func TestVarAppendRating(t *testing.T) {
